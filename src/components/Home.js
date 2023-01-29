@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { HiArrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -16,23 +17,28 @@ const Home = () => {
           <p className="text-gray-500 max-w-md py-4">
             I have 6 months experience. I have worked on technologies like web
             3.0 and nextjs mui scss and tailwind. Currently I am looking for a
-            job that gives me a opportunity to learn and grow
+            job that gives me a opportunity to learn and grow.
           </p>
           <div>
-            <button className="group flex items-center text-white px-6 py-3 mx-2 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-fit cursor-pointer">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group flex items-center text-white px-6 py-3 mx-2 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-fit cursor-pointer"
+            >
               Portfolio
               <span className="group-hover:rotate-90 duration-300 ml-1">
                 <HiArrowRight size={20} />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
-          <img
+          {/* <img
             src={HeroImage}
             className="rounded-2xl w-2/3 mx-auto md:w-full"
             alt="my profile"
-          />
+          /> */}
         </div>
       </div>
     </div>
