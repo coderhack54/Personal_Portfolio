@@ -5,9 +5,7 @@ const Experience = () => {
     <div
       name="experience"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
-    >
-      Experience
-    </div>
+    ></div>
   );
 };
 

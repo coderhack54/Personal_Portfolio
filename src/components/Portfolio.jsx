@@ -1,8 +1,11 @@
 import React from "react";
 
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import travelWebsite from "../assets/portfolio/travelWebsite.png";
+import gymWebsite from "../assets/portfolio/gymWebsite.png";
+import weatherApp from "../assets/portfolio/weatherAppPhoto.png";
+import amazonClone from "../assets/portfolio/amazonClone.png";
+import netflixClone from "../assets/portfolio/netflixClonePhoto.png";
+
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
@@ -14,19 +17,24 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: travelWebsite,
+      demo: "https://indiaunlimited.de/",
+    },
+    {
+      id: 2,
+      src: gymWebsite,
       demo: "https://workout-app-4qfe.onrender.com/",
       code: "https://github.com/coderhack54/Workout-App",
     },
     {
-      id: 2,
-      src: reactParallax,
+      id: 3,
+      src: weatherApp,
       demo: "https://weather-app-6wmh.onrender.com/",
       code: "https://github.com/coderhack54/Weather_app",
     },
     {
-      id: 3,
-      src: navbar,
+      id: 4,
+      src: amazonClone,
       demo: "https://amazon-clone-jefe.onrender.com/",
       code: "https://github.com/coderhack54/amazon-clone/tree/master",
     },
@@ -67,6 +75,7 @@ const Portfolio = () => {
                 >
                   Demo
                 </button>
+
                 <button
                   className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200"
                   onClick={() => handleClick(code)}
