@@ -1,4 +1,5 @@
 import React from "react";
+
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
@@ -7,30 +8,33 @@ import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
+  const handleClick = (link) => {
+    window.open(link);
+  };
   const portfolios = [
     {
       id: 1,
       src: arrayDestruct,
+      demo: "https://workout-app-4qfe.onrender.com/",
+      code: "https://github.com/coderhack54/Workout-App",
     },
     {
       id: 2,
       src: reactParallax,
+      demo: "https://weather-app-6wmh.onrender.com/",
+      code: "https://github.com/coderhack54/Weather_app",
     },
     {
       id: 3,
       src: navbar,
+      demo: "https://amazon-clone-jefe.onrender.com/",
+      code: "https://github.com/coderhack54/amazon-clone/tree/master",
     },
     {
       id: 4,
       src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
+      demo: "https://netflix-clone-odhi.onrender.com/",
+      code: "https://github.com/coderhack54/NetflixClone",
     },
   ];
 
@@ -48,7 +52,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, code, demo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,10 +60,18 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
+                <button
+                  className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200"
+                  onClick={() => handleClick(demo)}
+                  id="demobtn"
+                >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
+                <button
+                  className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200"
+                  onClick={() => handleClick(code)}
+                  id="codebtn"
+                >
                   Code
                 </button>
               </div>

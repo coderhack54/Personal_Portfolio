@@ -1,4 +1,5 @@
 import React from "react";
+import Experience from "./Experience";
 
 const About = () => {
   return (
@@ -11,21 +12,19 @@ const About = () => {
           <p className="text-4xl border-b-4 inline border-gray-500">About</p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-          nulla totam animi quaerat, hic magnam asperiores inventore sit
-          doloremque quo est vero accusamus. Iste laudantium culpa dignissimos
-          aspernatur rerum nesciunt voluptatum temporibus enim necessitatibus
-          iusto architecto labore, cumque vero minus autem odio aperiam
-          consectetur adipisci. Aliquid quod ipsa tempora numquam.
+          Hi, I'm a Anmol. I love to create modern User Interfaces with amazing
+          design and responsiveness that gives seamless User Experience . I am
+          Ambitious, Energetic and Passionate for the work I do. I embrace
+          opportunities for growth by continuously learning new technologies and
+          skills.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-          nulla totam animi quaerat, hic magnam asperiores inventore sit
-          doloremque quo est vero accusamus. Iste laudantium culpa dignissimos
-          aspernatur rerum nesciunt voluptatum temporibus enim necessitatibus
-          iusto architecto labore, cumque vero minus autem odio aperiam
-          consectetur adipisci. Aliquid quod ipsa tempora numquam.
+          I have the ability to adapt in both self-starting and collaborative
+          enviroment while staying focus on achieving high quality results under
+          strict deadlines.I am seeking a challenging position in a reputable
+          company which utilizes my skills while allowing me the opportunity to
+          grow professionally.
         </p>
       </div>
     </div>
