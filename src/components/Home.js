@@ -1,6 +1,6 @@
 import React from "react";
 // import HeroImage from "../assets/heroImage.png";
-// import HeroImage from "../assets/anmolimage.jpeg";
+import HeroImage from "../assets/myImage2.png";
 import { HiArrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -16,7 +16,10 @@ const Home = () => {
             I am a frontend web developer
           </h2>
           <p className="text-gray-500 max-w-md py-4">
-            I have 6 months experience as a ReactJS developer. I design website, write functional code, integrate api's and much more. I love to keep on exploring latest technologies which aim to create seamless User Experience.
+            I have 6 months experience as a ReactJS developer. I design website,
+            write functional code, integrate api's and much more. I love to keep
+            on exploring latest technologies which aim to create seamless User
+            Experience.
           </p>
           <div>
             <Link
@@ -32,13 +35,13 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        {/* <div>
+        <div>
           <img
             src={HeroImage}
             className="rounded-2xl w-2/3 mx-auto md:w-full"
             alt="my profile"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
