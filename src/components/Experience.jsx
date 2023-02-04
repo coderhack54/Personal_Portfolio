@@ -30,7 +30,10 @@ const Experience = () => {
                 <img src={calenderIcon} alt="" className="w-[14px] invert" />
                 <p className="pl-3 text-gray-200 text-sm">{item.date}</p>
               </div>
-              <h4 className="uppercase pl-5">{`${item.position}-${item.company}`}</h4>
+              <h4 className="uppercase pl-5 pt-2">
+                <span className="font-light">{item.position} - </span>
+                <span className="font-semibold">{item.company}</span>
+              </h4>
             </div>
           ))}
         </div>
