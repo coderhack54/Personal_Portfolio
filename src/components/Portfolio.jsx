@@ -7,9 +7,7 @@ import weatherApp from "../assets/portfolio/weatherAppPhoto.png";
 import amazonClone from "../assets/portfolio/amazonClone.png";
 import netflixClone from "../assets/portfolio/netflixClonePhoto.png";
 
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+
 
 const Portfolio = () => {
   const handleClick = (link) => {
@@ -40,8 +38,8 @@ const Portfolio = () => {
       code: "https://github.com/coderhack54/amazon-clone/tree/master",
     },
     {
-      id: 4,
-      src: reactSmooth,
+      id: 5,
+      src: netflixClone,
       demo: "https://netflix-clone-odhi.onrender.com/",
       code: "https://github.com/coderhack54/NetflixClone",
     },
