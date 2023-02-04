@@ -1,7 +1,5 @@
-.stepper{
-    @apply relative;
-}
-.stepper ::before {
+
+.stepper::before {
     content: '';
     position: absolute;
     top: 0;

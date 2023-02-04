@@ -11,19 +11,21 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-auto py-20"
+      className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen"
     >
-      <div className="flex flex-col max-w-screen-lg  mx-auto">
-        <div className="p-4 ">
+      <div className="flex flex-col max-w-screen-lg  mx-auto h-full w-full justify-center p-4">
+        <div className="">
           <div className="pb-8">
             <p className=" text-white text-4xl font-bold border-b-4 border-gray-500 inline">
               Experience
             </p>
           </div>
         </div>
-        <div className="stepper">
+        <div className="relative">
+          <div className="stepper"></div>
           {experienceData.map((item) => (
             <div className="text-white pb-12">
+              <span className="circle h-[16px] w-[16px] rounded-full border-2 bg-black absolute left-[-8px]"></span>
               <div className="flex justify-start items-center pl-5">
                 <img src={calenderIcon} alt="" className="w-[14px] invert" />
                 <p className="pl-3 text-gray-200 text-sm">{item.date}</p>

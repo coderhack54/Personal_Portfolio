@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"
+      className="w-full md:h-screen bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg flex justify-center items-center h-full mx-auto flex-col px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full pt-12 md:pt-0">
+      <div className="max-w-screen-lg flex justify-center items-center h-full mx-auto flex-col px-4 pb-4 md:flex-row">
+        <div className="flex flex-col justify-center h-full pt-12 md:pt-0 mt-16 md:mt-0">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I am a frontend web developer
           </h2>
@@ -38,7 +38,7 @@ const Home = () => {
         <div>
           <img
             src={HeroImage}
-            className="rounded-2xl w-2/3 mx-auto md:w-full"
+            className="rounded-2xl w-2/3 md:mx-auto md:w-full mt-12 md:mt-0"
             alt="my profile"
           />
         </div>
