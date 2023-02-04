@@ -7,11 +7,6 @@ const Experience = () => {
       company: "Escale Solutions",
       position: "SDE Intern",
     },
-    {
-      date: "5/12/22-1/1/2023",
-      company: "Applore tech",
-      position: "Mern Stack Developer",
-    },
   ];
   return (
     <div
