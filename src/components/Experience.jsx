@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full "
+      className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen "
     >
       <div className="flex flex-col max-w-screen-lg  mx-auto h-full w-full justify-center p-4">
         <div className="">
@@ -21,7 +21,7 @@ const Experience = () => {
             </p>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative md:mt-20">
           <div className="stepper"></div>
           {experienceData.map((item) => (
             <div className="text-white pb-12">
