@@ -9,6 +9,9 @@ import redux from "../assets/redux.svg";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap.svg";
+import nodejs from "../assets/node.png";
+import mongodb from "../assets/mongodb.jpg";
+import sass from "../assets/sass.png";
 
 const Skills = () => {
   const techs = [
@@ -56,15 +59,33 @@ const Skills = () => {
     },
     {
       id: 8,
+      src: nodejs,
+      title: "Node JS",
+      style: "shadow-green-300",
+    },
+    {
+      id: 9,
+      src: mongodb,
+      title: "Mongo DB",
+      style: "shadow-green-500",
+    },
+    {
+      id: 10,
       src: redux,
       title: "Redux",
       style: "shadow-purple-400",
     },
     {
-      id: 9,
+      id: 11,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 12,
+      src: sass,
+      title: "Sass",
+      style: "shadow-pink-400",
     },
   ];
   return (

@@ -6,6 +6,7 @@ import gymWebsite from "../assets/portfolio/gymWebsite.png";
 import weatherApp from "../assets/portfolio/weatherAppPhoto.png";
 import amazonClone from "../assets/portfolio/amazonClone.png";
 import netflixClone from "../assets/portfolio/netflixClonePhoto.png";
+import blogWebsite from "../assets/portfolio/brainwaveWebsite.png";
 
 
 
@@ -21,24 +22,31 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: blogWebsite,
+      demo: "https://brainwave-blog.vercel.app/",
+      code:"https://github.com/coderhack54/brainwave_blog"
+
+    },
+    {
+      id: 3,
       src: gymWebsite,
       demo: "https://workout-app-4qfe.onrender.com/",
       code: "https://github.com/coderhack54/Workout-App",
     },
     {
-      id: 3,
+      id: 4,
       src: weatherApp,
       demo: "https://weather-app-6wmh.onrender.com/",
       code: "https://github.com/coderhack54/Weather_app",
     },
     {
-      id: 4,
+      id: 5,
       src: amazonClone,
       demo: "https://amazon-clone-jefe.onrender.com/",
       code: "https://github.com/coderhack54/amazon-clone/tree/master",
     },
     {
-      id: 5,
+      id: 6,
       src: netflixClone,
       demo: "https://netflix-clone-odhi.onrender.com/",
       code: "https://github.com/coderhack54/NetflixClone",
