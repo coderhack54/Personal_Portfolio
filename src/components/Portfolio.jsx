@@ -7,6 +7,7 @@ import weatherApp from "../assets/portfolio/weatherAppPhoto.png";
 import amazonClone from "../assets/portfolio/amazonClone.png";
 import netflixClone from "../assets/portfolio/netflixClonePhoto.png";
 import blogWebsite from "../assets/portfolio/brainwaveWebsite.png";
+import docsCloneWebsite from "../assets/portfolio/googledocsClone.png";
 
 
 
@@ -50,6 +51,12 @@ const Portfolio = () => {
       src: netflixClone,
       demo: "https://netflix-clone-odhi.onrender.com/",
       code: "https://github.com/coderhack54/NetflixClone",
+    },
+    {
+      id: 7,
+      src: docsCloneWebsite,
+      demo: "https://google-docs-clone-neon.vercel.app/",
+      code: "https://github.com/coderhack54/google-docs-clone",
     },
   ];
 
